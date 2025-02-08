@@ -163,6 +163,12 @@ nav a:hover {
  background-color: #49f704;
  width: 15rem;
  height: 20px;
+ position: absolute;
+ width: 27rem;
+ height: 35px;
+ right: 50px;
+ text-align: center;
+ text-transform: capitalize;
 }
 /* Back to Top Button */
 #back-to-up {
