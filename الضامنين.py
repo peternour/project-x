@@ -4,6 +4,7 @@ import os
 import shutil
 from datetime import datetime
 
+
 def append_to_excel(text_file, excel_file, sheet_name, target_columns, text_encoding='utf-8'):
     """
     Appends text data to specific columns in an Excel sheet with duplicate checking
@@ -94,9 +95,6 @@ def append_to_excel(text_file, excel_file, sheet_name, target_columns, text_enco
         print(f"\n✅ Appended {len(new_rows)} rows to columns {', '.join(target_columns)}")
     else:
         print("\nNo new data to append.")
-        
-        
-        
         
 
 def create_monthly_from_template(text_file, base_dir, template_path, sheet_name, target_columns, text_encoding='utf-8'):
