@@ -167,17 +167,17 @@ def create_monthly_from_template(text_file, base_dir, template_path, sheet_name,
 
 if __name__ == "__main__":
     # ===== CONFIGURATION =====
-    text_file = r"C:\Users\Peter\Desktop\py\New Text Document.txt"
+    text_file = r"C:\Users\Peter\Desktop\INFORM.txt"
     text_encoding = 'utf-8'  # Use 'cp1256' for Arabic Windows
     
     # Configuration for existing Excel file
-    existing_excel = r"C:\Users\Peter\Desktop\py\data.xlsx"
-    existing_sheet = "peter"
-    existing_columns = ["C", "F"]  # Columns in existing file
+    existing_excel = r"D:\Committee\05 Neg-List\05-01 Clients\قائمة إدراج الكيانات الإرهابية والإرهابيين 23 يونيو 2025_CLIENT.xlsx"
+    existing_sheet = "الإرهابيين"
+    existing_columns = ["B", "D"]  # Columns in existing file
     
     # Configuration for new monthly files
-    base_monthly_dir = r"C:\Users\Peter\Desktop\py\Monthly_Reports"  # Base directory
-    template_file = r"C:\Users\Peter\Downloads\2023-11-01_4-.xlsx"  # Template path
+    base_monthly_dir = r"D:\COMMITTEE FORMES\Iscour_List\2025"  # Base directory
+    template_file = r"D:\COMMITTEE FORMES\Miza-Monthly\Co_py\2023-11-01_4-.xlsx"  # Template path
     new_sheet = "Sheet1"
     new_columns = ["D", "C"]  # Columns in new files
     # =========================
