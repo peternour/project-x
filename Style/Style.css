@@ -1,12 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Abril+Fatface&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Diphylleia&family=Grandiflora+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Diphylleia&family=Grandiflora+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Diphylleia&family=Grandiflora+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Aref+Ruqaa:wght@400;700&family=Diphylleia&family=Grandiflora+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Aref+Ruqaa:wght@400;700&family=Diphylleia&family=Grandiflora+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Scope+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Aref+Ruqaa:wght@400;700&family=DM+Serif+Text:ital@0;1&family=Diphylleia&family=Grandiflora+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Scope+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 /* General Reset */
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Federant&family=Mozilla+Headline:wght@200..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap");
 * {
  margin: 0;
  padding: 0;
@@ -25,9 +21,9 @@
  --head2-color: #03045e;
  /*fonts*/
  --head1-font: "Playwrite New Zealand Guides";
- --head2font: Ubuntu;
+ --head2font: Mozilla Headline;
  --head-nav-links: "Roboto Condensed";
- --list-font: Rubik;
+ --list-font: Playpen Sans Arabic;
 }
 
 /*end var*/
