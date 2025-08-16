@@ -62,9 +62,10 @@ header {
 header h1 {
  padding-left: 40px;
  font-family: var(--head2font);
- font-size: 1.5rem;
+ font-size: 1.2rem;
  color: #9edf07;
- transform: scaleX(1.3);
+ transform: scale(1.3);
+ text-transform: capitalize;
 }
 
 nav {
@@ -79,13 +80,17 @@ nav a {
  color: VAR(--nav-text);
  font-size: 1.2rem;
  padding: 2px 10px;
- transition: color 0.2s ease, transform 0.2s ease, text-transform 0.2s ease;
+ transition: all 0.4s ease;
+ text-transform: capitalize;
+ letter-spacing: 1px;
 }
 
 nav a:hover {
  color: var(--nav-text-hover);
  /* font-weight: bold; */
- transform: scaley(1.3);
+ transform: scaley(1.2);
+ text-transform: uppercase;
+ font-weight: 600;
 }
 
 /* Section */
@@ -101,7 +106,6 @@ nav a:hover {
  color: var(--head2-color);
  text-transform: uppercase;
  letter-spacing: -3px;
- transform: scaley(1.2);
 }
 
 .section ul {
@@ -127,7 +131,7 @@ nav a:hover {
  font-size: 1.1rem;
  /* border: 1px solid #4a90e2; */
  border-radius: 25px;
- transition: all 0.3s ease;
+ transition: all 0.4s ease;
 }
 
 .section ul li a:hover {

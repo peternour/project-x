@@ -2,6 +2,7 @@
 const calcBtn = document.querySelector(".calc-btn");
 const calcLbl = document.querySelector(".date-lbl");
 const dateIn = document.getElementById("input");
+const header = document.querySelector("h1");
 
 calcBtn.addEventListener("click", function () {
  // Parse the input date
@@ -36,4 +37,8 @@ calcBtn.addEventListener("click", function () {
  } else {
   calcLbl.textContent = `✔ You are ${years} years, ${months} months, and ${days} days old.`;
  }
+});
+
+header.addEventListener("click", function () {
+ header.textContent = "Peter Nour NagaHamadi Credit Unit";
 });
