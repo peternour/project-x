@@ -47,7 +47,7 @@ body {
 header {
  margin: 0 30px;
  display: flex;
- justify-content: space-between;
+ justify-content: space-around;
  align-items: center;
  padding: 0 25px;
  background-color: VAR(--navbackground); /*NAV BACKGROUND*/
@@ -59,19 +59,20 @@ header {
  border-radius: 15px;
 }
 
-header h1 {
- padding-left: 40px;
+h1 {
+ text-align: center;
  font-family: var(--head2font);
- font-size: 1.2rem;
+ font-size: 1rem;
  color: #9edf07;
- transform: scale(1.3);
+ transform: scale(1.1);
  text-transform: capitalize;
+ margin: 20px;
 }
 
 nav {
  display: flex;
  /* gap: 20px; */
- z-index: 1000000;
+ /* z-index: 1000000; */
 }
 
 nav a {
@@ -91,6 +92,7 @@ nav a:hover {
  transform: scaley(1.2);
  text-transform: uppercase;
  font-weight: 600;
+ padding: 2px 15px;
 }
 
 /* Section */
@@ -105,7 +107,8 @@ nav a:hover {
  margin-bottom: 20px;
  color: var(--head2-color);
  text-transform: uppercase;
- letter-spacing: -3px;
+ letter-spacing: 3px;
+ transform: scaley(1.5);
 }
 
 .section ul {
