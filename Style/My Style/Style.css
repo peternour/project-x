@@ -1,0 +1,221 @@
+/* General Reset */
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Federant&family=Mozilla+Headline:wght@200..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap");
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ scroll-margin: 1.7rem;
+}
+/*set var*/
+:root {
+ /*colors*/
+ --nav-text: #023047; /* #86bbd8;*/
+ --nav-text-hover: #ffb703;
+ --page-background: #8ecae6;
+ --text: #1c1f33;
+ --navbackground: #219ebc;
+ --head1-color: #9b2226;
+ --head2-color: #03045e;
+ /*fonts*/
+ --head1-font: "Playwrite New Zealand Guides";
+ --head2font: Mozilla Headline;
+ --head-nav-links: "Roboto Condensed";
+ --list-font: Playpen Sans Arabic;
+}
+
+/*end var*/
+html {
+ scroll-behavior: smooth;
+}
+
+body {
+ background-color: var(--page-background); /*Page background color*/
+ color: #333;
+ /* line-height: 1.3; */
+ min-height: 500vh;
+ /* width: 100%; */
+}
+
+/* Header */
+header {
+ margin: 0 30px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 0 25px;
+ background-color: VAR(--navbackground); /*NAV BACKGROUND*/
+ position: sticky;
+ top: 0;
+ height: 41px;
+ box-shadow: 0 4px 6px #005f73;
+ z-index: 100000;
+ border-radius: 15px;
+}
+
+h1 {
+ text-align: center;
+ font-family: var(--head2font);
+ font-size: 1rem;
+ color: #9edf07;
+ transform: scale(1.1);
+ text-transform: capitalize;
+ margin: 20px;
+}
+
+nav {
+ display: flex;
+ /* gap: 20px; */
+ /* z-index: 1000000; */
+}
+
+nav a {
+ text-decoration: none;
+ font-family: var(--head-nav-links);
+ color: VAR(--nav-text);
+ font-size: 1.2rem;
+ padding: 2px 10px;
+ transition: all 0.4s ease;
+ text-transform: capitalize;
+ letter-spacing: 1px;
+}
+
+nav a:hover {
+ color: var(--nav-text-hover);
+ /* font-weight: bold; */
+ transform: scaley(1.2);
+ text-transform: uppercase;
+ font-weight: 600;
+ padding: 2px 15px;
+}
+
+/* Section */
+.section {
+ padding: 34px 40px 20px;
+ text-align: center;
+}
+
+.section h2 {
+ font-size: 2rem;
+ font-family: var(--head2font);
+ margin-bottom: 20px;
+ color: var(--head2-color);
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ transform: scaley(1.5);
+}
+
+.section ul {
+ padding: 0;
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: space-evenly;
+}
+
+.section ul li {
+ margin: 14px auto;
+ font-family: var(--list-font);
+}
+
+.section ul li a {
+ align-items: end;
+ display: inline-flex;
+ text-decoration: none;
+ color: #eee;
+ padding: 2px 20px 3px;
+ font-size: 1.1rem;
+ /* border: 1px solid #4a90e2; */
+ border-radius: 25px;
+ transition: all 0.4s ease;
+}
+
+.section ul li a:hover {
+ background-color: var(--nav-text-hover);
+ color: var(--head2-color); /*the big list on hover*/
+ /* font-weight: bold; */
+ transform: scale(1.1);
+}
+.calc-btn,
+.date-in {
+ width: 20%;
+ height: 1.5rem;
+ font-weight: bold;
+ margin-top: 7px;
+ padding: 0 10px;
+ font-family: var(--list-font);
+ font-size: 1rem;
+ border-radius: 20px;
+ border: none;
+ outline: none;
+}
+.calc-btn:hover {
+ background-color: var(--nav-text-hover);
+ border: none;
+ border-radius: 8px;
+ transition: all 0.2s ease;
+}
+.calc-btn:active {
+ color: white;
+}
+
+.date-lbl {
+ font-family: var(--head2font);
+ font-size: 1.25rem;
+
+ color: var(--head2-color);
+ width: 15rem;
+ height: 20px;
+ position: absolute;
+ width: 27rem;
+ height: 35px;
+ right: 50px;
+ text-align: center;
+ border-radius: 20px;
+}
+/* Back to Top Button */
+#back-to-up {
+ width: 40px;
+ height: 40px;
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+ background-color: #4a90e2;
+ color: #fff;
+ border: none;
+ border-radius: 50%;
+ font-size: 1.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+ transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#back-to-up:hover {
+ background-color: #e63946;
+ transform: scale(1.2);
+}
+.footer {
+ padding: 0;
+ position: fixed;
+ bottom: 0;
+ z-index: -1;
+}
+.footer {
+ width: 100%;
+}
+
+.footer-nav p {
+ width: 100%;
+ padding: 0 10px;
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: small;
+ color: #023047;
+ text-transform: capitalize;
+}
